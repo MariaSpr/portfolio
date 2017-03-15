@@ -8,6 +8,23 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+/* navbar */
+.navbar ul li {
+	transition:all 0.3s ease;
+}
+
+.navbar ul li:hover{
+	/*border-bottom:3px solid #61121f;*/
+	background-color: #3f2d3e;
+	color:white;
+}
+#navbar ul li>a:hover{
+	color:white;
+}
+
+
+
+/* hero area */
 .jumbotron{
 	background-color: #4f404b;
 	background-image: url(../assets/img/bg_img_2.jpg);
@@ -74,4 +91,11 @@ body {
 #about{
 	height: 100vh;
 	padding:50px;
+}
+
+.section-head {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size:40px;
 }
