@@ -22,6 +22,11 @@ body {
 	color:white;
 }
 
+.active_nav a {
+	background-color: #3f2d3e;
+	color:white;
+}
+
 
 
 /* hero area */
