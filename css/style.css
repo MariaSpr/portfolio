@@ -7,3 +7,17 @@ body {
   padding-bottom: 20px;
   font-family: 'Raleway', sans-serif;
 }
+
+.jumbotron{
+	background-image: url(../assets/img/bg_img_2.jpg);
+	background-repeat: none;
+    height: 100vh;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color:white;
+
+}
