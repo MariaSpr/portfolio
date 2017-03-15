@@ -25,7 +25,7 @@ body {
 
 #jumbo-text {
 	display:block;
-	margin-top: 120px;
+	margin-top: 150px;
 	color:white;
 	font-weight: 300;
 	/*text-transform: uppercase;*/
@@ -49,10 +49,11 @@ body {
 
 #action_btn {
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 400;
+	font-size:23px;
 	/*background-color:  #443343;*/
 	background:none;
-	border:2px solid #fff;
+	border:1px solid #fff;
 	outline:none;
 	transition: all 0.3s ease;
 	width:250px;
@@ -60,8 +61,17 @@ body {
 
 
 #action_btn:hover{
-	background-color:  #443343;
+	/*background-color:  #443343;*/
+	background-color: #61121f;
 	border:none;
 	border-bottom:1px solid #fff;
 	
+}
+
+
+/* about section*/
+
+#about{
+	height: 100vh;
+	padding:50px;
 }
