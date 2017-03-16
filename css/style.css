@@ -132,6 +132,8 @@ body {
 #portfolio {
 	height: 100vh;
 	padding:50px;
+
+	
 }
 
 .thumbnail {
@@ -152,6 +154,8 @@ body {
 .portfolio_sec {
 	margin-top: 60px;
 }
+
+
 
 
 /* ==================== social media section ============================ */
@@ -175,4 +179,11 @@ body {
 	margin-top: 100px;
 }
 
+a.list-group-item {
+	transition: all 0.3s ease;
+}
 
+a.list-group-item:hover {
+	background-color:#443343;
+	color:white;
+}
