@@ -133,7 +133,17 @@ body {
 	height: 100vh;
 	padding:50px;
 
-	
+	background-color: #4f404b;
+	background-image: url(../assets/img/bg_img_3.jpg);
+	background-repeat: none;
+    height: 100vh;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    background-blend-mode: soft-light;
 }
 
 .thumbnail {
@@ -155,8 +165,14 @@ body {
 	margin-top: 60px;
 }
 
-
-
+.section-head_work {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size:40px;
+	color: #fff;
+	margin-bottom: 40px;
+}
 
 /* ==================== social media section ============================ */
 
