@@ -104,12 +104,13 @@ body {
 	font-weight: 400;
 	font-size:40px;
 	color: #443343;
+	margin-bottom: 40px;
 }
 
 .about_sec h2 {
 	font-size: 35px;
 	color:#443343;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #443343;
 }
@@ -122,4 +123,19 @@ body {
 .about_sec {
 	margin-top: 40px;
 	/*border:1px solid #443343;*/
+	margin-bottom: 100px;
 }
+
+
+/*  ============================ portfolio section ======================= */
+
+#portfolio {
+	height: 100vh;
+	padding:50px;
+}
+
+
+
+
+
+
