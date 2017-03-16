@@ -167,5 +167,12 @@ body {
 	width:95%;
 }
 
+.social_sec_pic, .social_sec_media {
+	margin-top: 60px;
+}
+
+.social_sec_media {
+	margin-top: 100px;
+}
 
 
