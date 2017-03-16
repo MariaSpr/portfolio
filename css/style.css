@@ -8,7 +8,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-/* navbar */
+/* =============================   navbar   ============================= */
 .navbar ul li {
 	transition:all 0.3s ease;
 }
@@ -29,7 +29,7 @@ body {
 
 
 
-/* hero area */
+/* ========================   hero area   ================================== */
 .jumbotron{
 	background-color: #4f404b;
 	background-image: url(../assets/img/bg_img_2.jpg);
@@ -91,7 +91,7 @@ body {
 }
 
 
-/* about section*/
+/* =================    about section    =====================  */
 
 #about{
 	height: 100vh;
@@ -103,4 +103,23 @@ body {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size:40px;
+	color: #443343;
+}
+
+.about_sec h2 {
+	font-size: 35px;
+	color:#443343;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #443343;
+}
+
+.about_sec p, .about_sec ul li {
+	font-size: 20px;
+	color: #443343;
+}
+
+.about_sec {
+	margin-top: 40px;
+	/*border:1px solid #443343;*/
 }
