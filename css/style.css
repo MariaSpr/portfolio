@@ -134,7 +134,24 @@ body {
 	padding:50px;
 }
 
+.thumbnail {
+	height: 275px;
+}
 
+.thumbnail img {
+	width:100%;
+	height: 135px;
+}
+
+.caption h3 {
+	color:#443343;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.portfolio_sec {
+	margin-top: 60px;
+}
 
 
 
